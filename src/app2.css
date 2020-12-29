@@ -1,0 +1,23 @@
+#app2 {
+  /* border: 1px solid green; */
+}
+#app2 .bar-tab {
+  display: flex;
+}
+
+#app2 .bar-tab li {
+  width: 50%;
+  border: 1px solid #f1f2f6;
+}
+#app2 .bar-tab li.selected {
+  background-color: #ff7f50;
+  color: #fff;
+}
+
+#app2 .bar-content > li {
+  display: none;
+}
+
+#app2 .bar-content > li.active {
+  display: block;
+}
